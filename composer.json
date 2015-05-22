@@ -1,0 +1,30 @@
+{
+    "name": "xideapl/person",
+    "type": "library",
+    "description": "Xidea Person Component",
+    "keywords": [],
+    "homepage": "http://xidea.pl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artur Pszczółka",
+            "email": "artur.pszczolka@xidea.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "xideapl/base": "dev-master@dev"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": { "Xidea\\Component\\Person": "" }
+    },
+    "target-dir": "Xidea/Component/Person",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
