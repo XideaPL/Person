@@ -7,12 +7,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Person;
+namespace Xidea\Person;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-abstract class PersonEvents
+abstract class Events
 {
     /**
      * The PRE_SAVE event occurs when the person is saved.

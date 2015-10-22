@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Person\Model;
+namespace Xidea\Person;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>

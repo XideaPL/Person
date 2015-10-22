@@ -7,21 +7,21 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Person\Loader;
+namespace Xidea\Person;
 
 use Xidea\Component\Base\Loader\ModelLoaderInterface;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-interface PersonLoaderInterface extends ModelLoaderInterface
+interface LoaderInterface extends ModelLoaderInterface
 {
     /**
      * Returns a manufacturer by id.
      * 
      * @param int $id
      * 
-     * @return \Xidea\Component\Person\Model\PersonInterface
+     * @return \Xidea\Person\PersonInterface
      */
     function load($id);
     

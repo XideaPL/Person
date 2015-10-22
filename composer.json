@@ -1,7 +1,7 @@
 {
     "name": "xideapl/person",
     "type": "library",
-    "description": "Xidea Person Component",
+    "description": "Xidea Person",
     "keywords": [],
     "homepage": "http://xidea.pl",
     "license": "MIT",
@@ -18,9 +18,8 @@
     "require-dev": {
     },
     "autoload": {
-        "psr-0": { "Xidea\\Component\\Person": "" }
+        "psr-4": { "Xidea\\Person\\": "src/" }
     },
-    "target-dir": "Xidea/Component/Person",
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {

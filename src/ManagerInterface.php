@@ -7,14 +7,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Person\Manager;
-
-use Xidea\Component\Person\Model\PersonInterface;
+namespace Xidea\Person;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-interface PersonManagerInterface
+interface ManagerInterface
 {
     /**
      * Saves a person.
